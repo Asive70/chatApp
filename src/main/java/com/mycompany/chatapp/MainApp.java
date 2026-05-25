@@ -10,13 +10,14 @@ import java.util.Scanner;
  *
  * @author Student
  */
+
 public class MainApp {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
         
-        Login login = new Login();
-        
+         Login login = new Login();
+
 //---REGISTRATION SECTION----
 System.out.print("Enter a username: ");
 String username = input.nextLine();
